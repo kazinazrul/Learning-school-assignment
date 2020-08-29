@@ -1,0 +1,33 @@
+.course-item{
+    height: 430px;
+    width: 30%;
+    float: left;
+    padding: 30px;
+    margin: 15px;
+    direction: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray, -5px -5px 10px lightgray;
+}
+.course-item{
+    height: 160px;
+    margin: 0 0 10px 0;
+}
+.course-title{
+    width: 240px;
+    line-height: 22px;
+    color: #4b4a4a;
+}
+.course-description{
+    width: 240px;
+    font-size: 15px;
+    color: #575656;
+}
+.enroll-button{
+    padding: 0 5px;
+    font-weight: bold;
+}
+.course-price{
+    color: darkorange;
+}
